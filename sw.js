@@ -1,15 +1,17 @@
 const CACHE_NAME = "my-cache-v1";
 
-const   U0RLS_TO_CACHE = [
+const   URLS_TO_CACHE = [
     "/",
-    "/to-do-pwa/index.html",    
-    "/to-do-pwa/script.js",
-    "/to-do-pwa/favicon.ico",
-    "/to-do-pwa/manifest.json",
-    "/to-do-pwa/style.css",
-    "/to-do-pwa/icons/icon-192.png",
-    "/to-do-pwa/icons/icon-512.png",
-    "/to-do-pwa/offline.html"
+    "/aulapwa-lista/index.html",    
+    "/aulapwa-lista/script.js",
+    "/aulapwa-lista/favicon.ico",
+    "/aulapwa-lista/manifest.json",
+    "/aulapwa-lista/style.css",
+    "/aulapwa-lista/icons/icon-192.png",
+    "/aulapwa-lista/icons/icon-512.png",
+    "/aulapwa-lista/offline.html",
+    "/aulapwa-lista/sobre.html"
+
 ]
 
 self.addEventListener("install", (event) => { /////////assim q foi feito o carregamento da página é executado esse evento
